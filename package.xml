@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>rhea_description</name>
+  <name>pupper_v3_description</name>
   <version>0.0.0</version>
-  <description>Description package for the Rhea wheeled biped robot</description>
+  <description>Description package for the Pupper v3 robot</description>
   <maintainer email="gabrael@cs.stanford.edu">Gabrael Levine</maintainer>
   <license>TODO: License declaration</license>
 
