@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     <xacro:macro name="pupper_v3_system"
-    params="homing_kp:=7.0 homing_kd:=0.2 homing_torque_threshold:=3.0 homing_speed:=0.5">
+    params="homing_kp:=4.0 homing_kd:=0.2 homing_torque_threshold:=2.0 homing_speed:=0.5">
 
-    <ros2_control name="pi3hat_hardware_interface" type="system">
+    <ros2_control name="pi_hat_hardware_interface" type="system">
         <hardware>
-            <plugin>pi3hat_hardware_interface/Pi3HatHardwareInterface</plugin>
+            <plugin>pi_hat_hardware_interface/PiHatHardwareInterface</plugin>
         </hardware>
 
         <joint name="leg_front_l_1">
